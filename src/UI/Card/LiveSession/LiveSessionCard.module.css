@@ -1,0 +1,139 @@
+.liveBanner {
+    display: block;
+    background-image: url('../../../assets/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.liveBannerTN {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.liveBannerTime {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    color: white;
+    padding: 1rem;
+}
+.liveBannerNumber {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    color: white;
+    padding: 1rem;
+}
+.liveBannerTitle {
+    display: block;
+}
+.liveBannerTitleMain {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem;
+}
+.liveBannerTitleSub {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1rem;
+}
+.liveBannerPerson {
+    display: flex;
+    justify-content: center;
+}
+.liveBannerPersonImgDiv{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.liveBannerPersonImg{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
+.liveBannerPersonInfo {
+    display: block;
+}
+.liveBannerPersonInfoName{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: white;
+    padding: 1rem 1rem 0.2rem;
+}
+.liveBannerPersonInfoPosition {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    color: white;
+    padding: 0.2rem 1rem;
+}
+.liveBannerPersonInfoCompany {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    color: white;
+    padding: 0.2rem 1rem;
+}
+.liveBannerButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.liveBannerButton {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    width: 8rem;
+    height: 2rem;
+    background: white;
+    color: #01385E;
+    border-radius: 5px;
+    border: none;
+}
+.liveBannerButton:hover {
+    background: green;
+    color: white;
+}
+.liveBannerKeplerDiv {
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.liveBannerKeplerimg{
+    width: 8rem;
+}
+.liveBannerBreak {
+    border-top: 0.05px solid white;
+    background-color: white;
+    opacity: 0.05;
+}
+
+@media (max-width: 900px) {
+    .liveBannerTN {
+        display: block;
+    }
+    .liveBannerPerson {
+        display: block;
+    }
+}

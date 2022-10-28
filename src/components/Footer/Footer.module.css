@@ -1,0 +1,97 @@
+.footer {
+   position: absolute;
+   left:0px;
+   right:0px;
+   background-color: #003459;
+   padding: 4rem;
+   display: grid;
+   grid-template-columns: 50% 25% 25%;
+}
+.logo {
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+.title {
+    width: 7rem;
+    margin: 0.5rem;
+}
+.keplerMobile {
+    display: none;
+}
+.description {
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: normal;
+    line-height: 1.2rem;
+    color: white;
+    margin: 0.5rem;
+    padding-right: 40%; 
+}
+.socials {
+    display: flex;
+}
+.social {
+    margin: 0.5rem;
+    font-size: 1.3rem;
+    color: white;
+}
+.links {
+    color: white;
+    font-family: DMSans;
+    font-weight: medium;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+.link {
+    color: rgb(164, 164, 164);
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.link:hover {
+    color: white;
+}
+.linkHighlighted {
+    color: white;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+@media (max-width: 600px){
+    .footer{
+        display: block;
+    }
+    .description {
+        padding-right: 10%; 
+    }
+    .keplerMobile {
+        display: block;
+        padding: 2rem 0;
+    }
+    .kepler {
+        display: none;
+    }
+    .links{
+        padding-top: 2rem;
+    }
+}
+@media (max-width: 300px){
+    .footer{
+        display: block;
+    }
+    .keplerMobile {
+        display: block;
+        padding: 2rem 0;
+    }
+    .kepler {
+        display: none;
+    }
+    .socials {
+        display: block;
+    }
+}

@@ -1,0 +1,200 @@
+.hero {
+    display: flex;
+    background-color: #003459;
+    justify-content: center;
+    height: 35rem;
+    padding-top: 10rem;
+}
+.heromain {
+    padding-left: 3%;
+}
+.title {
+    color: white;
+    font-family: DMSans;
+    font-size: 2.75rem;
+    font-weight: bold;
+    line-height: 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.button1 {
+    width: 18rem;
+    height: 3rem;
+    margin: 3rem 0.5rem 0.5rem;
+    background-color: #F4F4F4;
+    color: #003459;
+    border-color: #F4F4F4;
+    border-width: 0.2px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.button1:hover {
+    background-color: #003459;
+    color:#F4F4F4;
+    border-radius: 10px;
+}
+.button2 {
+    width: 18rem;
+    height: 3rem;
+    margin: 3rem 0.5rem 0.5rem;
+    background-color: #003459;
+    color: #F4F4F4;
+    border-color: white;
+    border-width: 0.2px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.button2:hover {
+    background-color: #F4F4F4;
+    color: #003459;
+    border-radius: 10px;
+}
+.description {
+    color: white;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    position: relative;
+    margin: 8rem 2rem;
+}
+@media (max-width: 1280px) {
+    .hero {
+        height: 40rem;
+    }
+    .button1 {
+        width: 14rem;
+    }
+    .button2 {
+        width: 14rem;
+    }
+}
+@media (max-width: 1024px) {
+    .hero {
+        display: block;
+        padding-top: 3rem;
+        height: 40rem;
+    }
+    .heromain {
+        padding-left: 7%;
+    }
+    .button1 {
+        width: 12rem;
+    }
+    .button2 {
+        width: 12rem;
+    }
+    .description {
+        margin: 4rem 20%;
+    }
+}
+@media (max-width: 900px) {
+    .title {
+        font-size: 2.5rem;
+    }
+    .button1 {
+        width: 12rem;
+    }
+    .button2 {
+        width: 12rem;
+    }
+    .description {
+        margin: 4rem 15%;
+    }
+}
+@media (max-width: 740px) {
+    .hero {
+        height: 35rem;
+    }
+    .heromain {
+        padding-left: 10%;
+    }
+    .title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .button1 {
+        width: 12rem;
+        margin: 2rem 0.5rem 0.5rem 0;
+    }
+    .button2 {
+        width: 12rem;
+    }
+    .description {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        margin: 2rem 10%;
+    } 
+}
+@media (max-width: 450px) {
+    .hero {
+        height: 35rem;
+        padding-top: 2rem;
+    }
+    .heromain {
+        padding-left: 7%;
+    }
+    .title {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    .button1 {
+        width: 8rem;
+        margin: 2rem 0.5rem 0.5rem 0;
+    }
+    .button2 {
+        width: 8rem;
+    }
+    .description {
+        font-size: 0.6rem;
+        line-height: 1.5rem;
+        margin: 2rem 7%;
+    } 
+}
+@media (max-width: 360px) {
+    .heromain {
+        padding-left: 10%;
+    }
+    .title {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .button1 {
+        width: 6rem;
+        margin: 2rem 0.5rem 0.5rem 0;
+    }
+    .button2 {
+        width: 6rem;
+    }
+    .description {
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+        margin: 2rem 10%;
+    } 
+}
+@media (max-width: 250px) {
+    .heromain {
+        padding-left: 0;
+    }
+    .title {
+        margin: 0 1%;
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    .button1 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .button2 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .description {
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+        margin: 0 1%;
+    } 
+}

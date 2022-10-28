@@ -1,0 +1,125 @@
+.inputform {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: block;
+    width: 800px;
+}
+.title {
+    font-family: DMSans;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #01385E;
+    margin: 2rem 1rem;
+    text-align: center;
+}
+.description {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    color: #5C5C5C;
+    text-align: center;
+}
+.personalInfo {
+    display: flex;
+}
+.submitInfo {
+    display: block;
+}
+.personalInfo label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin: 0.5rem 0;
+    color: #5C5C5C;
+    text-align: center;
+
+}
+.personalInfo input {
+    display: block;
+    height: 2rem;   
+    width: 385px;
+    border-radius: 5px;
+    margin: 0.5rem 10px 0.5rem 0;
+    border: 1px solid #01385E;
+    padding: 0.5rem;
+}
+.submitInfoButton {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    width: 10rem;
+    height: 2.5rem;
+    margin: 0.5rem 0;
+    background: #01385E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.submitInfoButton:hover {
+    background: green;
+    color: white;
+}
+.submitInfo textarea {
+    display: block;
+    
+}
+.submitInfoTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0.5rem 0;
+    line-height: 1.5rem;
+    color: #5C5C5C;
+}
+.submitInfoMessage textarea{
+    width: 795px;
+    height: 5rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #01385E;
+    border-radius: 5px;
+}
+.submitInfoButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .form {
+        width: 100%;
+    }
+    .personalInfo {
+        display: block;
+    }
+    .personalInfo input {
+        width: 95%;
+    }
+    .submitInfoMessage textarea{
+        width: 95%;
+    }
+}
+@media (max-width: 600px) {
+    .form {
+        width: 100%;
+    }
+    .personalInfo {
+        display: block;
+    }
+    .personalInfo input {
+        width: 95%;
+    }
+    .submitInfoMessage textarea{
+        width: 95%;
+    }
+}

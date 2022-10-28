@@ -1,0 +1,40 @@
+.innerContent{
+    margin: 3rem 8rem;
+    justify-content: center;
+}
+
+.productsTitle {
+    font-family: DMSans;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #01385E;
+    margin: 0.5rem;
+    text-align: center;
+}
+.clicked {
+    text-decoration: underline white 2px;
+    text-underline-offset: 1rem;
+}
+
+.productsIntro {
+    text-align: center;
+    margin: 1rem 10rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: #5C5C5C;
+}
+.productsContent {
+    margin: 5rem 0;
+}
+@media (max-width: 1024px) {
+    .innerContent {
+        margin: 3rem 1rem;
+    }
+    .productsIntro {
+        margin: 1rem 1rem;
+    }
+}
+

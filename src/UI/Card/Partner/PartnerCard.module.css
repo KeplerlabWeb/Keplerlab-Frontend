@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+}
+.logo img{
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 300px) {
+    .logo {
+        margin: 0;
+    }
+}

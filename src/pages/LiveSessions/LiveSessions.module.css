@@ -1,0 +1,32 @@
+.clicked {
+    text-decoration: underline #FFC60B 2px;
+    text-underline-offset: 1rem;
+}
+.innerContent {
+    margin: 4rem 8rem;
+}
+.liveSessionTitle {
+    font-family: DMSans;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #01385E;
+    margin: 0.5rem 0.5rem 2rem;
+    text-align: center;
+}
+.liveSessionHistory {
+    font-family: DMSans;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #01385E;
+    margin: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+.LiveSessionHistoryCard {
+    margin: 1rem;
+}
+@media (max-width: 1024px) {
+    .innerContent {
+        margin: 4rem 0.5rem;
+    }
+}

@@ -1,0 +1,7 @@
+.button {
+    font-family: DMSans;
+    font-size: 1rem;
+}
+.button:hover {
+    cursor: pointer;
+}

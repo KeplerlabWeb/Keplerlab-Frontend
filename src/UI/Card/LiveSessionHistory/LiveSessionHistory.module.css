@@ -1,0 +1,30 @@
+.perviousLiveSession {
+    display: flex;
+    background-color: #01385E;
+    border-radius: 10px;
+}
+.perviousLiveSessionTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: white;
+    width: 50%;
+}
+.perviousLiveSessionDropdown {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color:white;
+    width: 50%;
+}
+.perviousLiveSessionDetails {
+    background-color: white;
+}
+.perviousLiveSessionDetail {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}

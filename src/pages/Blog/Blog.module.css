@@ -1,0 +1,13 @@
+.clicked {
+    text-decoration: underline white 2px;
+    text-underline-offset: 1rem;
+}
+.blog{
+    margin: 3rem 8rem;
+}
+
+@media (max-width: 1024px){
+    .blog {
+        margin: 0;
+    }
+}

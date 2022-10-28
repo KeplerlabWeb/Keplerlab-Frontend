@@ -1,0 +1,151 @@
+.Header {
+    background-color: #003459;
+    z-index: -1;
+}
+.components {
+    display: flex;
+    padding: 1rem;  
+}
+
+.title_logo {
+    margin: 2rem;
+    width: 12rem;
+    z-index: 1;
+}
+.title_logo:hover {
+    cursor: pointer;
+}
+
+.name {
+    color: white;
+    font-family: Dokdo;
+    font-size: 2rem;
+    margin: 2rem 0;
+    z-index: 1;
+}
+.name:hover {
+    cursor: pointer;
+}
+.links {
+    display: flex;
+    position: absolute;
+    right: 2rem;
+    padding: 0.5rem;
+    z-index: 1;
+}
+.link {
+    color: white;
+    font-family: Poppins;
+    font-size: 1rem;
+    margin: 2rem 1.5rem;
+}
+.linkL {
+    color: #FFC60B;
+    font-family: Poppins;
+    font-size: 1rem;
+    margin: 2rem 1.5rem;
+}
+.link:hover, .linkL:hover {
+    cursor: pointer;
+}
+
+.hero {
+    position: absolute;
+    top:0px;
+    right:0px;
+    left:0px;
+}
+.logoHero {
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.herologo {
+    position: absolute;
+    top:1.5rem;
+    right:0px;
+    left:0px;
+    opacity: 0.05;
+}
+.bar {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .links {
+        display: none;
+    }
+    .bar {
+        display: flex;
+        color: white;
+        font-size: 2rem;
+        margin: 2rem 2rem;
+        position: absolute;
+        right: 0.5rem;
+        z-index: 1;
+    }
+    .close {
+        display: flex;
+        color: white;
+        font-size: 2rem;
+        margin: 2rem 2rem;
+        position: absolute;
+        right: 0.5rem;
+        z-index: 1;
+    }
+    .bar:hover {
+        font-size: 1.8rem;
+        box-shadow: inset;
+    }
+    .linksMobile {
+        background-color: white;
+        position: absolute;
+        z-index: 5;
+        width: 10rem;
+        right: 4rem;
+        top: 5rem;
+        border-radius: 5px;
+        border-color: white;
+        border-width: 1px;
+    }
+    .linkMobile {
+        font-family: Poppins;
+        padding: 0.5rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 11rem;
+    }
+    .linkMobileL {
+        font-family: Poppins;
+        padding: 0.5rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 11rem;
+        color: #FFC60B; 
+    }
+    .linkMobileL:hover {
+        color: #FFC60B;
+        background-color:#003459;
+    }
+    .linkMobile:hover {
+        color:white;
+        background-color:#003459;
+    }
+}
+@media (max-width: 900px) {
+    .logoHero {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .title_logo {
+        margin: 2rem 0.5rem;
+        width: 8rem;
+    }
+}
+@media (max-width: 250px) {
+    .title_logo {
+        margin: 2rem 0;
+        width: 6rem;
+    }
+}

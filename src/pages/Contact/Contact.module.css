@@ -1,0 +1,39 @@
+
+.contactTitle{
+    font-family: DMSans;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #01385E;
+    margin: 3rem 1rem;
+    text-align: center;
+}
+.clicked {
+    text-decoration: underline white 2px;
+    text-underline-offset: 1rem;
+}
+.toggle {
+    display:flex;
+    margin: 2rem 30%;
+}
+.option {
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+    font-family: Poppins;
+    color: #01385E;
+    background-color: #F4F4F4;
+    cursor: pointer;
+}
+.selected {
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+    font-family: Poppins;
+    color: white;
+    background-color: #01385E;
+}
+@media (max-width: 1200px) {
+    .toggle {
+        margin: 2rem 5%;
+    }
+}
